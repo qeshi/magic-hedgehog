@@ -1,0 +1,22 @@
+app:
+    package: mycompany.magicHedgehog
+    name: magicHedgehog
+    displayName: magicHedgehog
+    author: My Company
+    version: '1.0'
+
+    plugins:
+        - clay
+        - nape
+        - arcade
+        - sprite
+
+    libs:
+        #- somelib
+        #- somelib: someversion
+        #- somelib: git:https://github.com/somelibauthor/somelib.git
+    
+    defines:
+        #- some_define
+        #- some_define: 'some value'
+
