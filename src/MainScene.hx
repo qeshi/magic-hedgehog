@@ -26,8 +26,8 @@ class MainScene extends Scene {
         
         var spriteSheet = new SpriteSheet();
         
-        spriteSheet.gridWidth = 528;
-        spriteSheet.gridHeight = 624;
+        spriteSheet.gridWidth = 527;
+        spriteSheet.gridHeight = 625;
         spriteSheet.texture = assets.texture(Images.THREE_TWO);
         spriteSheet.addGridAnimation("kuri", 0, 5, 0.4);
         
